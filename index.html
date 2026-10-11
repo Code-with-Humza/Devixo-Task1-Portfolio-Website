@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Hamza Saeed, a frontend web developer and IT student from Gujranwala."
+    />
+    <meta name="theme-color" content="#0a1b27" />
+    <title>Hamza Saeed | Frontend Web Developer</title>
+    <link rel="icon" type="image/x-icon" href="./images/portfolio-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <!-- Top navigation bar -->
+        <nav class="navbar">
+          <a href="#home" class="nav-brand">Hamza Saeed</a>
+          <ul class="header-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="lets-talk">Let's Talk</a>
+          <a href="#menu" class="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </a>
+        </nav>
+
+        <!-- Sidebar for tablet and mobile (opens with :target, no JavaScript) -->
+        <aside class="sidebar" id="menu" aria-label="Site menu">
+          <a
+            href="#close"
+            class="sidebar-scrim"
+            tabindex="-1"
+            aria-hidden="true"
+          ></a>
+          <div class="sidebar-panel">
+            <a href="#close" class="sidebar-close" aria-label="Close menu"
+              >&#10005;</a
+            >
+            <div class="sidebar-profile">
+              <img src="images/profile.png" alt="Hamza Saeed" width="84" height="84" />
+              <p class="sidebar-name">Hamza Saeed</p>
+              <p class="sidebar-role">Frontend Web Developer</p>
+            </div>
+            <ul class="sidebar-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="sidebar-cta">Let's Talk</a>
+            <div class="sidebar-footer">
+              <div class="sidebar-socials">
+                <a
+                  href="https://github.com/Code-with-Humza"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/hamza-saeed-3538a2438"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:itshamza449@gmail.com" aria-label="Email">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+              <p>&copy; 2026 Hamza Saeed.<br />All rights reserved.</p>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Hero -->
+        <section class="hero-section" id="home">
+          <div class="hero-text">
+            <div class="intro-line">FRONTEND WEB DEVELOPER · IT STUDENT</div>
+            <h1 class="hero-name">Hamza Saeed</h1>
+            <div class="tagline">I build clean, responsive websites.</div>
+            <p class="description">
+              IT student from Gujranwala working with HTML, CSS and JavaScript,
+              and learning React. I'm looking for a frontend internship where I
+              can build real products.
+            </p>
+            <a href="#contact" class="hero-link lets-talk-button">Let's Talk</a>
+            <a href="#projects" class="hero-link view-projects-button"
+              >View Projects</a
+            >
+          </div>
+          <div class="hero-portrait">
+            <img
+              src="images/profile.png"
+              alt="Portrait of Hamza Saeed"
+              width="400"
+              height="480"
+              class="hero-profile"
+            />
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <!-- About -->
+        <section class="about-me-section" id="about">
+          <div class="about-me-flex">
+            <h2 class="title reveal">About me</h2>
+            <p class="sub-title reveal">A short introduction</p>
+            <p class="intro-paras">
+              I'm a frontend web developer and 7th-semester IT student who turns
+              designs into fast, readable, responsive pages.
+            </p>
+            <p class="intro-paras-div">
+              I build with HTML, CSS and JavaScript, connect pages to APIs, and
+              keep every project in Git and GitHub. I'm now learning React to
+              grow toward full-stack development.
+            </p>
+            <div class="about-card-container">
+              <div class="academic-bg-card about-card">
+                <h3 class="card-title-one">Academic background</h3>
+                <p class="card-intro-one">
+                  BS Information Technology at Government Islamia College
+                  Gujranwala, University of the Punjab. Expected graduation in
+                  2027.
+                </p>
+              </div>
+              <div class="career-interests-card about-card">
+                <h3 class="card-title-two">Career interests</h3>
+                <p class="card-intro-two">
+                  Frontend development with React, building clean user
+                  interfaces, and growing into a full-stack role.
+                </p>
+              </div>
+            </div>
+          </div>
+          <aside class="fact-card reveal-right">
+            <h3 class="fact-heading">Quick facts</h3>
+            <div class="main-fact-container">
+              <div class="fact-container">
+                <div class="fact-title">Degree</div>
+                <div class="fact-value">BS Information Technology</div>
+              </div>
+              <div class="fact-container">
+                <div class="fact-title">Focus</div>
+                <div class="fact-value">Frontend development</div>
+              </div>
+              <div class="fact-container">
+                <div class="fact-title">Location</div>
+                <div class="fact-value">Gujranwala, Pakistan</div>
+              </div>
+              <div class="fact-container">
+                <div class="fact-title">Looking for</div>
+                <div class="fact-value">Frontend internship</div>
+              </div>
+              <div class="fact-container">
+                <div class="fact-title">Availability</div>
+                <div class="fact-value">Open to freelance work</div>
+              </div>
+            </div>
+            <a
+              href="resume/Hamza_Saeed_Resume.pdf"
+              class="resume-button"
+              download
+              >Download Resume</a
+            >
+          </aside>
+        </section>
+        <hr />
+
+        <!-- Skills -->
+        <section class="skills-section" id="skills">
+          <h2 class="skill-title reveal">Skills</h2>
+          <p class="skills-description reveal">
+            The tools I use to build and ship websites.
+          </p>
+          <div class="skills-card-container">
+            <div class="frontend-card skill-card">
+              <div class="title-and-count">
+                <h3 class="frontend-card-title">Frontend</h3>
+                <p>3 skills</p>
+              </div>
+              <div class="main-skill-container">
+                <div class="skill-container for-border-bottom skill-html">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/html.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">HTML5</h4>
+                    <p class="skill-description">Semantic accessible markup</p>
+                  </div>
+                </div>
+                <div class="skill-container for-border-bottom skill-css">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/css.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">CSS3</h4>
+                    <p class="skill-description">
+                      Flexbox, Grid and responsive layouts
+                    </p>
+                  </div>
+                </div>
+                <div class="skill-container skill-js">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/js.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">JavaScript</h4>
+                    <p class="skill-description">
+                      DOM, events and fetching data
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-card skill-card">
+              <div class="title-and-count">
+                <h3 class="tool-title">Tools &amp; Workflow</h3>
+                <p class="tool-count">3 skills</p>
+              </div>
+              <div class="main-skill-container">
+                <div class="skill-container for-border-bottom skill-git">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/gitlab.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">Git</h4>
+                    <p class="skill-description">
+                      Version control for every project
+                    </p>
+                  </div>
+                </div>
+                <div class="skill-container for-border-bottom skill-github">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/github.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">GitHub</h4>
+                    <p class="skill-description">
+                      Repositories and project hosting
+                    </p>
+                  </div>
+                </div>
+                <div class="skill-container skill-api">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/api.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">APIs</h4>
+                    <p class="skill-description">
+                      Connecting pages to live data
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="learning-card skill-card">
+              <div class="title-and-count">
+                <h3 class="learning-title">Currently Learning</h3>
+                <p class="learning-status">In progress</p>
+              </div>
+              <div class="main-skill-container skill-react">
+                <div class="skill-container">
+                  <div class="skill-img-div">
+                    <img
+                      src="./images/react.png"
+                      alt=""
+                      class="skill-logo"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="skill-text">
+                    <h4 class="skill-name">React</h4>
+                    <p class="skill-description">Components and state</p>
+                  </div>
+                </div>
+                <div class="info-div">
+                  <p class="extra-learning-info">
+                    Applying it in my final year project.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <!-- Education -->
+        <section class="education-section" id="education">
+          <div class="education-text">
+            <h2 class="edu-title reveal">Education</h2>
+            <p class="edu-text reveal">My academic background</p>
+          </div>
+          <div class="education-card-container">
+            <div class="vertical-line-container"></div>
+            <div class="bubble-container"></div>
+            <div class="education-card">
+              <div class="edu-text-container">
+                <h3 class="edu-card-title">
+                  Bachelor of Science in Information Technology
+                </h3>
+                <p class="edu-status">In progress</p>
+              </div>
+              <p class="inst-name">
+                Government Islamia College, Gujranwala<br />
+                Affiliated with University of the Punjab
+              </p>
+              <div class="edu-subcard">
+                <div class="study-period common-period-container">
+                  <p class="period-title">Study period</p>
+                  <h4 class="period-data">2023 - 2027 (expected)</h4>
+                </div>
+                <div class="current-stage common-period-container">
+                  <p class="current-title">Current stage</p>
+                  <h4 class="current-data">7th semester</h4>
+                </div>
+                <div class="degree-type common-period-container">
+                  <p class="degree-title">Degree type</p>
+                  <h4 class="degree-data">4-year BS program</h4>
+                </div>
+              </div>
+              <div class="final-education-section">
+                <div class="relevant-coursework">
+                  <h4 class="coursework-title">Relevant coursework</h4>
+                  <div class="first-row">
+                    <p class="course-work">Web Technologies</p>
+                    <p class="course-work database-systems">Database Systems</p>
+                  </div>
+                  <div class="first-row sec-row">
+                    <p class="course-work">Data Structures</p>
+                    <p class="course-work oop-tech">
+                      Object-Oriented Programming
+                    </p>
+                  </div>
+                  <p class="course-work software-engineering">
+                    Software Engineering
+                  </p>
+                </div>
+                <div class="final-year-project">
+                  <h4 class="project-title">Final year project</h4>
+                  <div class="project-container">
+                    <h5 class="project-name">
+                      Personal Financial Budget Manager
+                    </h5>
+                    <p class="project-details-para">
+                      A full-stack web app built with React, Node/Express and
+                      MongoDB, with secure login using JWT.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <!-- Projects -->
+        <section class="project-section" id="projects">
+          <div class="project-text">
+            <h2 class="project-title-real reveal">Projects</h2>
+            <p class="project-desc reveal">Things I've built while learning.</p>
+          </div>
+          <div class="project-cards-container">
+            <article class="first-project">
+              <div class="img-screenshot">
+                <img
+                  src="./images/project3.PNG"
+                  alt="Screenshot of the e-commerce clone"
+                  class="project-one"
+                  width="600"
+                  height="338"
+                  loading="lazy"
+                />
+              </div>
+              <div class="all-project-text">
+                <div class="project-text-info">
+                  <h3 class="project-real-title">E-commerce Clone</h3>
+                  <p class="project-real-desc">
+                    A responsive shopping site with product listings and a
+                    working cart.
+                  </p>
+                </div>
+                <div class="project-skills">
+                  <p class="f-skill">HTML</p>
+                  <p class="s-skill">CSS</p>
+                  <p class="t-skill">JavaScript</p>
+                </div>
+                <div class="project-nav-links">
+                  <a
+                    href="https://ecommerce-amazon-clone-hamza.vercel.app/"
+                    class="project-live-demo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live demo</a
+                  >
+                  <a
+                    href="https://github.com/Code-with-Humza/Ecommerce-amazon-clone.git"
+                    class="project-github-repo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repo</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="first-project">
+              <div class="img-screenshot">
+                <img
+                  src="./images/project2.PNG"
+                  alt="Screenshot of the YouTube clone"
+                  class="project-one"
+                  width="600"
+                  height="338"
+                  loading="lazy"
+                />
+              </div>
+              <div class="all-project-text">
+                <div class="project-text-info">
+                  <h3 class="project-real-title">YouTube Clone</h3>
+                  <p class="project-real-desc">
+                    A responsive video-site layout rebuilt from scratch with
+                    pure HTML and CSS.
+                  </p>
+                </div>
+                <div class="project-skills">
+                  <p class="f-skill">HTML</p>
+                  <p class="s-skill">CSS</p>
+                </div>
+                <div class="project-nav-links">
+                  <a
+                    href="https://youtube-clone-hamza.vercel.app"
+                    class="project-live-demo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live demo</a
+                  >
+                  <a
+                    href="https://github.com/Code-with-Humza/Youtube-Clone.git"
+                    class="project-github-repo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repo</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="first-project">
+              <div class="img-screenshot">
+                <img
+                  src="./images/project1.PNG"
+                  alt="Screenshot of the currency converter"
+                  class="project-one"
+                  width="600"
+                  height="338"
+                  loading="lazy"
+                />
+              </div>
+              <div class="all-project-text">
+                <div class="project-text-info">
+                  <h3 class="project-real-title">Currency Converter</h3>
+                  <p class="project-real-desc">
+                    Converts between currencies using live exchange rates from
+                    an API.
+                  </p>
+                </div>
+                <div class="project-skills">
+                  <p class="f-skill">HTML</p>
+                  <p class="s-skill">CSS</p>
+                  <p class="t-skill">JavaScript</p>
+                  <p class="s-skill">API</p>
+                </div>
+                <div class="project-nav-links">
+                  <a
+                    href="https://currency-converter-hamza.vercel.app"
+                    class="project-live-demo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live demo</a
+                  >
+                  <a
+                    href="https://github.com/Code-with-Humza/currency-converter.git"
+                    class="project-github-repo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub repo</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <hr />
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+          <div class="contact-text">
+            <h2 class="contact-title reveal">Contact</h2>
+            <p class="contact-description reveal">
+              Have a project or internship in mind? Send a message.
+            </p>
+          </div>
+          <div class="contact-card-flex-container">
+            <div class="personal-owner-details">
+              <div class="email-details">
+                <h4 class="email-title">Email</h4>
+                <p class="owner-email">itshamza449@gmail.com</p>
+              </div>
+              <div class="phone-details">
+                <h4 class="phone-title">Phone</h4>
+                <p class="owner-phone">+92 328 0486544</p>
+              </div>
+              <div class="location-details">
+                <h4 class="location-title">Location</h4>
+                <p class="owner-location">Gujranwala, Pakistan</p>
+              </div>
+              <div class="social-links">
+                <h4 class="social-title">Find me online</h4>
+                <p class="owner-social-links">
+                  <a
+                    href="https://github.com/Code-with-Humza"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                  >
+                  ·
+                  <a
+                    href="https://www.linkedin.com/in/hamza-saeed-3538a2438"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="user-contact-form">
+              <form action="#" class="form-element">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    aria-label="Name"
+                    class="input-field"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    aria-label="Email"
+                    class="input-field"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    aria-label="Subject"
+                    class="input-field"
+                  />
+                </div>
+                <div>
+                  <textarea
+                    rows="6"
+                    name="message"
+                    id="text-area"
+                    placeholder="Message"
+                    aria-label="Message"
+                  ></textarea>
+                </div>
+                <button class="send-message" type="button">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="footer-top">
+          <div>
+            <h3 class="footer-name">Hamza Saeed</h3>
+            <p class="footer-role">Frontend web developer</p>
+          </div>
+          <div class="footer-socials" aria-label="Social media links">
+            <a
+              href="https://github.com/Code-with-Humza"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hamza-saeed-3538a2438"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:itshamza449@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <hr />
+        <div class="last-row">
+          <p class="copyright-claim">
+            &copy; 2026 Hamza Saeed. All rights reserved.
+          </p>
+          <a href="#home" class="top-navigation">Back to top</a>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const navLinks = document.querySelectorAll(".header-nav-links a");
+      const sections = document.querySelectorAll("section[id]");
+
+      function setActiveLink(id) {
+        navLinks.forEach((link) => {
+          const matches = link.getAttribute("href") === "#" + id;
+          link.classList.toggle("active", matches);
+        });
+      }
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const current = entries
+            .filter((entry) => entry.isIntersecting)
+            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+          if (current) {
+            setActiveLink(current.target.id);
+          }
+        },
+        {
+          threshold: [0.25, 0.5, 0.75],
+          rootMargin: "-12% 0px -45% 0px",
+        },
+      );
+
+      sections.forEach((section) => observer.observe(section));
+      setActiveLink("home");
+    </script>
+  </body>
+</html>
